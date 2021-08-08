@@ -1,13 +1,13 @@
 var tubelight = function () {
-  let btext = document.getElementById("bulddata");
-  for (x = 1; x < 6; x++) {
-    let bid = document.getElementById("lightid".concat(x));
+  let bteit = document.getElementById("bulddata");
+  for (let i = 1; i < 6; i++) {
+    let bid = document.getElementById("lightid".concat(i));
     if (bid.src.match("lighton")) {
       bid.src = "images/lightoff.png";
-      btext.innerHTML = "Light OFF";
+      bteit.innerHTML = "Light OFF";
     } else {
       bid.src = "images/lighton.png";
-      btext.innerHTML = "Light ON";
+      bteit.innerHTML = "Light ON";
     }
   }
 };
